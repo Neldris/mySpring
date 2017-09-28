@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+.amistiHtml{
+    margin: 0 !important;
+    padding: 0 !important;
+	background-color:purple;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+}
+
+table { padding: 5px;  width: 100%;}
+
+#amistiMainCon {
+	margin: 0 !important;
+    padding: 0 !important;
+	background-color: #FFFF;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+}
+
+#amistiMainTop{
+	height: 40px;
+	width: 100%;
+	margin-bottom: 10px;
+	border: thin solid #eee;
+	display: inline-block; 
+	background-color: #FFFF;
+}
+textarea {
+	width: 100%;
+	padding: 5px;
+	resize: none;
+}
+input[type=text]{ padding:5px;}
+input[type=date]{ padding:5px;}
+input[type=file]{ padding:5px;}
+
+#m_body{
+	width: 56%; height: auto; 
+	border: solid thin blue;margin-bottom: 10px; 
+	display: block; float: left; 
+    margin-right:1%; padding:0.5%; 
+    word-wrap:break-word;
+    min-width: 500px; position: relative;
+}
+#m_header{
+     height: 50px; 
+     border-bottom: solid thin #eee;
+     width: 99.9%; display: block; 
+     position: fixed; z-index: 10;top:0px;
+     background-color: #690569;
+}
+#center_con{
+	width:90%; height: 100%; 
+	margin: 60px auto; border:;
+	 display: block; position:relative ;
+	 padding-left:5%;padding-right:5%;
+}
+#m_left{
+	min-width: 200px;
+	width: 20%; height: 500px; 
+	border: solid thin green; 
+	display: block; float: left; 
+	margin-right:1%;margin-bottom: 10px;"
+}
+#m_right{
+	width: 20%; height: 500px; 
+	min-width: 200px;
+	border: solid thin red; 
+	display: block; float: left; 
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
